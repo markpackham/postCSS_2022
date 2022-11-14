@@ -1,3 +1,5 @@
+@import 'vars';
+@import 'card';
 @custom-selector :--heading h1,
 h2,
 h3,
@@ -7,10 +9,9 @@ h6;
 
 @custom-media --viewport-small (width <=500px);
 
-$light-color: lightblue;
 
 body {
-    background-color: $light-color;
+    background-color: $lightColor;
 }
 
 :--heading {
