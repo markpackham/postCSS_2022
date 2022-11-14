@@ -1,25 +1,29 @@
+.card {
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #000;
+    width: 500px;
+}
 
+    .card h2 {
+        color: red;
+    }
 
-
-body {
+    body {
     background-color: lightblue;
 }
 
-@media(max-width: 500px) {
+    @media(max-width: 500px) {
 
 h1,h2,h3,h4,h5,h6 {
         font-size: 40px
 }
     }
 
-.card h2 {
-        color: red;
-    }
-
-input::-moz-placeholder {
+    input::-moz-placeholder {
     color: steelblue;
 }
 
-input::placeholder {
+    input::placeholder {
     color: steelblue;
 }
