@@ -17,6 +17,12 @@ body {
     }
 }
 
+.card {
+    & h2 {
+        color: red;
+    }
+}
+
 input::placeholder {
     color: steelblue;
 }
