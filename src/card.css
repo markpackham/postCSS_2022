@@ -1,13 +1,13 @@
 .card {
-    color: purple;
-    font-size: 2rem;
+    color: lightblue;
     padding: 20px;
     margin-top: 20px;
     border: $borderWidth solid $borderColor;
     background-image: resolve('adamWarlock.png');
     background-repeat: no-repeat;
     background-position: center;
-    width: 500px;
+    width: width('adamWarlock.png');
+    height: height('adamWarlock.png');
 
     h2 {
         color: red;
