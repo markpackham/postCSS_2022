@@ -7,8 +7,10 @@ h6;
 
 @custom-media --viewport-small (width <=500px);
 
+$light-color: lightblue;
+
 body {
-    background-color: lightcyan;
+    background-color: $light-color;
 }
 
 :--heading {
