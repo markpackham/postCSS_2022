@@ -1,3 +1,7 @@
 body {
-    background-color: red;
+    background-color: lightcyan;
+}
+
+input::placeholder {
+    color: steelblue;
 }
