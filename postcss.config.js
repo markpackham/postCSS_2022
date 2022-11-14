@@ -5,5 +5,6 @@ module.exports = {
       stage: 1,
     }),
     require("precss"),
+    require("postcss-import"),
   ],
 };
