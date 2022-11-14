@@ -6,5 +6,8 @@ module.exports = {
     }),
     require("precss"),
     require("postcss-import"),
+    require("postcss-assets")({
+      loadPaths: ["dist/img"],
+    }),
   ],
 };

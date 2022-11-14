@@ -1,7 +1,12 @@
 .card {
+    color: purple;
+    font-size: 2rem;
     padding: 20px;
     margin-top: 20px;
     border: $borderWidth solid $borderColor;
+    background-image: resolve('adamWarlock.png');
+    background-repeat: no-repeat;
+    background-position: center;
     width: 500px;
 
     h2 {
