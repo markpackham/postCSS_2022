@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:css": "postcss src/input.css -o dist/style.css -w",
+    "build:css": "postcss src/input.css -o dist/style.css"
   },
   "keywords": [],
   "author": "",
